@@ -1,4 +1,4 @@
-# Contributing to PouCode
+# Contributing to Ucihaa
 
 Thanks for your interest in contributing! PouCode is a fork of
 [Baileys](https://github.com/WhiskeySockets/Baileys); contributions here follow
@@ -22,7 +22,7 @@ similar conventions to the upstream project.
 ## Development setup
 
 ```bash
-git clone https://github.com/poucode/baileys.git
+git clone https://github.com/UCIHAORI/baileys.git
 cd baileys
 npm install
 npm run build:tsc
