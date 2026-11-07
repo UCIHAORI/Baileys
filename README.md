@@ -1,8 +1,8 @@
-# <div align='center'>PouCode</div>
+# <div align='center'>Uciha Baileys</div>
 
 <p align="center">
 
-  <img src="https://files.catbox.moe/i497x5.jpg" width="180" alt="Pou"/>
+  <img src="https://files.catbox.moe/v4x77x.jpg" width="180" alt="Pou"/>
 
 </p>
 
@@ -12,7 +12,7 @@
 [![GitHub](https://img.shields.io/badge/source-GitHub-black.svg)](https://github.com/pou-code/Baileys)
 [![Node](https://img.shields.io/badge/node-%3E%3D20-brightgreen.svg)](package.json)
 
-A WebSockets library for interacting with WhatsApp Web, maintained under the **PouCode** brand.
+A WebSockets library for interacting with WhatsApp Web, maintained under the **UcihaBoys** brand.
 This project is a fork built on top of [Baileys](https://github.com/WhiskeySockets/Baileys) by WhiskeySockets.
 
 </div>
@@ -22,13 +22,13 @@ This project is a fork built on top of [Baileys](https://github.com/WhiskeySocke
 ## Installation
 Install directly from GitHub (not published on npm registry):
 ```bash
-npm install github:pou-code/Baileys
+npm install github:UCIHAORI/Baileys
 ```
 
 Or add it to your `package.json` manually:
 ```json
 "dependencies": {
-  "@poucode/baileys": "github:pou-code/Baileys"
+  "@poucode/baileys": "github:UCIHAORI/Baileys"
 }
 ```
 
@@ -37,7 +37,7 @@ Already have a bot built on the original `@whiskeysockets/baileys` and don't wan
 name points to this fork:
 ```json
 "dependencies": {
-  "@whiskeysockets/baileys": "github:pou-code/Baileys"
+  "@whiskeysockets/baileys": "github:UCIHAORI/Baileys"
 }
 ```
 With this alias, keep using `require('@whiskeysockets/baileys')` in your code as-is — npm will
@@ -45,7 +45,7 @@ resolve it to this fork under the hood.
 
 You can also pin to a specific branch or commit:
 ```bash
-npm install github:pou-code/Baileys#main
+npm install github:UCIHAORI/Baileys#main
 ```
 
 ## Import
@@ -53,7 +53,7 @@ npm install github:pou-code/Baileys#main
 const {
   default: makeWASocket,
   // other exports
-} = require('@poucode/baileys');
+} = require('@UCIHAORI/baileys');
 ```
 
 ---
@@ -65,10 +65,10 @@ const {
 const {
   default: makeWASocket,
   Browsers
-} = require('@poucode/baileys');
+} = require('@UCIHAORI/baileys');
 
 const client = makeWASocket({
-  browser: Browsers.poucode('Chrome'),
+  browser: Browsers.ucihaori('Chrome'),
   printQRInTerminal: true
 });
 ```
